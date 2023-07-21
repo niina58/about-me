@@ -1,0 +1,19 @@
+/*サイト全体に適用するcss*/
+.tableFlexBox{
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #aaaaaa;
+    padding: 0.75em 0;
+}
+
+.tableFlexBox:last-child{
+    border: none;
+}
+
+.tableHeader {
+    width: 30%;
+}
+
+.tableCell{
+    width: 70%;
+}

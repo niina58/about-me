@@ -1,0 +1,6 @@
+.box1{
+    background:#eaffdf ;/*背景色の指定*/
+    border: #82d35a 1px solid;/*境界線の指定*/
+    border-radius:6px;
+    padding:10px;
+}

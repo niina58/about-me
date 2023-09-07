@@ -1,4 +1,8 @@
 /*サイト全体に適用するcss*/
+.box{
+    background-color: #d3d3d3;
+}
+
 .tableFlexBox{
     display: flex;
     width: 100%;

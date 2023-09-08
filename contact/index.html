@@ -26,10 +26,26 @@
             <li>繋がりにくい場合がございますので、メールでのお問い合わせをお願いします</li>
         </ul>
     </div>
+    <section>
+        <p>最終アクセス日時：<span id="time"></span></p>
+    </section>
 
     <h3>気軽にご連絡ください</h3>
     <div>
         <a href="../index.html">トップページに戻る</a>
     </div>
+    <script>
+        'use strict';
+
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = now.getMonth();
+        const date = now.getDate();
+        const hour = now.getHours();
+        const min = now.getMinutes();
+
+        const output = `${year}/${month +1}/${date} ${hour}:${min}`;
+        document.getElementById('time').textContent = output;
+    </script>
 </body>
 </html>

@@ -2,3 +2,19 @@
     text-align: center;
     background-color:wheat;
 }
+.pbox{
+    display: flex;/*四角横並び*/
+    justify-content: space-around;/*中央均等揃え*/
+    padding: 5px;
+    
+  }
+  .cbox{
+    border-radius: 10px;
+    border: solid 5px white;
+    vertical-align: middle;
+    text-align: center;
+    width: 200px;
+    height: 280px;
+    line-height: 100px;
+    
+  }
